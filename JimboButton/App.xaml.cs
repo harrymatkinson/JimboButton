@@ -24,7 +24,7 @@ namespace JimboButton
     {
 
         // store the connection to the SQL database
-        private string connectionString = @"Data Source=HARRY-PC\SQL2017;Initial Catalog=JimboData;Integrated Security=True;MultipleActiveResultSets=True";
+        private string connectionString = @"Data Source=DESKTOP-3LTHG0U\SQLEXPRESS;Initial Catalog=JimboData;Integrated Security=True;MultipleActiveResultSets=True";
 
         // allow other methods to use and set the connection details
         public string ConnectionString { get => connectionString; set => connectionString = value; }
